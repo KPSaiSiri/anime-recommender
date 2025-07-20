@@ -135,7 +135,7 @@ else:
 
 # Streamlit form
 with st.form("feedback_form"):
-    selected_anime = st.selectbox("Choose an anime to rate", anime_data['title'].unique())
+    selected_anime = st.selectbox("Choose an anime to rate", anime_df['title'].unique())
     user_rating = st.slider("Your rating (1 = bad, 5 = amazing)", 1, 5, 3)
     user_comment = st.text_input("Any thoughts or comment?")
     submit = st.form_submit_button("Submit Feedback")

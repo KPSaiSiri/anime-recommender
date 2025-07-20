@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # anime-recommender
 # 🎌 OtakuMatch – Anime Recommendation System
 
@@ -33,3 +34,29 @@ git clone https://github.com/KPSaiSiri/anime-recommender.git
 cd anime-recommender
 pip install -r requirements.txt
 streamlit run anime_app.py
+=======
+# 🎌 OtakuMatch - Anime Recommendation System
+
+**OtakuMatch** is a personalized anime recommendation system built with **Python**, **Pandas**, and **Streamlit**. It suggests anime based on user preferences like genre, popularity, and ratings.
+
+---
+
+## 🌟 Features
+
+- 🔍 Search-based recommendations
+- 🎭 Filter by Genre
+- ⭐ Top-Rated Anime Section
+- 🎲 “Surprise Me!” Button
+- 🌙 Dark Mode Toggle
+- 💬 Rating + Comment Section (coming soon)
+- 🔗 Kaggle Datasets Integrated
+
+---
+
+## 🚀 Run Locally
+
+### 1. Clone the repo:
+```bash
+git clone https://github.com/KPSaiSiri/anime-recommender.git
+cd anime-recommender
+>>>>>>> 464aa513 (Saved changes before pulling)
